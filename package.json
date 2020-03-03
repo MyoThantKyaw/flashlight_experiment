@@ -1,0 +1,31 @@
+{
+  "name": "flash_light_experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch" : "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyoThantKyaw/flash_light_experiment.git"
+  },
+  "author": "Myo Thant Kyaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyoThantKyaw/flash_light_experiment/issues"
+  },
+  "homepage": "https://github.com/MyoThantKyaw/flash_light_experiment#readme",
+  "dependencies": {
+    "three": "^0.114.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
