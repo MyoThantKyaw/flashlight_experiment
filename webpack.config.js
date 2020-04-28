@@ -1,13 +1,15 @@
 var path = require("path")
 
 module.exports = {
-    mode: "development",
+    mode: "production",
     entry: {
         app: "./src/app.js"
     },
     output: {
         path : path.resolve("dis"),
-        filename: "app.bundle.3d.js"
+        filename: "app.bundle.3d.js",
+        libraryTarget: 'var',
+        library: "threeD"
     },
 
     module: {
