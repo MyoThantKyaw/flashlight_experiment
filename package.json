@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/MyoThantKyaw/flash_light_experiment#readme",
   "dependencies": {
-    "three": "^0.114.0"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
